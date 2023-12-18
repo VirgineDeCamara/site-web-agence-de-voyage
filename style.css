@@ -77,22 +77,32 @@ a {
 {
     position: relative;
     margin-left: 780px;
-    padding-top: 15px;
-    color: blue;
+    padding-top: 18px;
     font-size: 13px;
-     border-top: 2px #0000ff solid;
-     left: 200px
-     
-     
-    
+    border-top: 2px white;
+     left: 200px;
+          
+     }
+     .heberg :hover{
+        border-top: 2px solid #0065FC;
+        padding-top: 24px;
+        color: #0065FC;
+
+     }
    
-}
+
 .activite{
     padding-top: 18px;
     padding-right: 50px;
     padding-left: 30px;
     font-size: 13px;
     margin-left: 230px;
+}
+.activite :hover{
+    border-top: 2px solid #0065FC;
+        padding-top: 24px;
+        color: #0065FC;
+
 }
 /**** Trouver un hébergement *****/
 .herbergement-rech{
@@ -115,7 +125,9 @@ a {
     margin: 0px;
 }
 .description{
+
     margin: 0px;
+    padding-top:4px;
     font-size: 13.7px;
 }
 .form{
@@ -185,7 +197,12 @@ form {
   border-radius:25px;
   border: 2px solid #D9D9D9;
   font-weight:600;
+  &:hover{
+    background-color: #DEEBFF;
+  }
+  
 }
+
 .famille{
     padding: 10px;
     padding-left: 20px;
@@ -195,16 +212,24 @@ form {
     border-radius:25px;
     border: 2px solid #D9D9D9;
     font-weight:600;
+    &:hover{
+        background-color: #DEEBFF;
+      }
 }
+
 .romantique{
     padding: 10px;
     padding-left: 24px;
-    position: absolute;
+    position:absolute;
     bottom: 315px;
     right: 810px;
     border-radius: 25px;
     border: 2px solid #D9D9D9;
     font-weight:600;
+    &:hover{
+        background-color: #DEEBFF;
+      }
+    
 }
 
 .pepite{
@@ -216,7 +241,9 @@ form {
     border-radius:25px;
     border: 2px solid #D9D9D9;
     font-weight:600;
-
+    &:hover{
+        background-color: #DEEBFF;
+      }
 }
 
 .economique{
@@ -224,6 +251,7 @@ form {
     flex-direction:row;
     padding-left:15px;
 }
+
 .log{
     display: flex;
     position: absolute;
@@ -300,6 +328,7 @@ form {
     font-size: 12px;
     top:23px;
 }
+/**** Hergement Marseille****/
 
 
 
@@ -317,9 +346,70 @@ form {
 }
 
 /****** Hebergements ***********/
+
 .hebergements {
     width: 65%;
+    
+    
 }
+.hebergement-card img{
+    width: 90%;
+    height: 100px;
+    padding:10px;
+    border-radius: 20px 20px 0px 0px;
+    font-size: 80px;
+    object-fit:cover;
+}
+.hebergement-card .card-content{
+    padding-left: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+   
+
+
+.hebergement-card{
+    display: flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+    
+}
+.cards1, .cards2, .cards3, .cards4, .cards5, .cards6 {
+    background-color: white;
+    width: 226px;
+    height: 180px;
+    margin-top: 34px;
+    margin-left: 5px;
+    font-size: 12px;
+    border-radius: 25px;
+    box-shadow: 0px 3px 15px 0px #0000001A;
+
+
+}
+.cards1, .cards2, .cards3{
+   margin-bottom:39px;
+}
+.cards4, .cards5, .cards6{
+    margin-bottom:30px;
+}
+
+.hebergement-card .card-subtitle{
+    margin: 0;
+}
+.hebergement-card .card-title{
+    margin: 0;
+    
+}
+.affiche{
+    font-size: 18px;
+    font-weight:600;
+}
+
+   
+
+
 
 /****** Populaires ***********/
 .populaires {
@@ -337,11 +427,13 @@ form {
     margin-top: 33px;
 }
 
+
 .populaires-cards img {
     width: 33%;
     height: 136px;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
+
 }
 
 .populaires-cards .card-content {
@@ -364,6 +456,67 @@ form {
 
 .populaires-cards .card-rating {
     margin-bottom: 5px;
+}
+/**** Activité a Marseille ****/
+.activite-marseille{
+    
+    padding-top: 20px;
+}
+
+
+.activite-card{
+    display: flex;
+    justify-content: space-between;
+
+}
+.activite-titre{
+
+    margin-bottom: 0;
+    font-size: 20px;
+}
+.activite-card img{
+    width: 100.5%;
+    height: 300px;
+    border-top-right-radius:20px;
+    border-top-left-radius:20px ;
+    object-fit: cover;
+
+}
+.activite1, .activite2, .activite3, .activite4{
+    width:280px;
+    margin-top: 34px;
+    margin-left: 5px;
+    font-size: 12px;
+    box-shadow: 0px 3px 15px 0px #0000001A;
+    border-bottom-left-radius20px;
+    border-bottom-right-radius20px;
+    border-radius: 20px;
+    
+}
+.activite-card-title{
+   padding-left: 18px;
+padding-bottom: 18px;
+}
+
+/****Pied de page****/
+footer{
+    background: #F2F2F2;
+    display: flex;
+    justify-content: space-between;
+    padding-right:280px;
+    padding-left: 15px;
+    
+}
+.title-propos, .title-hebergement, .title-assistance{
+    font-size: 18px;
+
+}
+
+.condition, .donnes, .proposer, .contacte{
+    padding-top:8px;
+}
+.propos, .nos-hebergement, .assistance{
+    font-size: 16px;
 }
 
 
