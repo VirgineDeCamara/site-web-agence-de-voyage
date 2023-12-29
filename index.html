@@ -22,10 +22,10 @@
             <header class="banner">
                <img class="booki" src="image/logo/Logo.png" alt="Image du logo">
             
-             
+             <div class="navigation">
                        <div class="heberg"> <a href="#">Hébergements</a> </div>
                        <div class="activite"> <a href="#">Activités</a></div>
-            
+            </div>
         </header>
             <main>
                 <div class ="herbergement-rech">
@@ -34,20 +34,22 @@
                           <p class="description">En plein centre ville ou en pleine nature</p>
                        <div class="form">
                           <input class="bouton" type ="submit" value="Rechercher"  >
-                          <form action="" method="get">
+                          <form action="" method="post">
                                <input type="text" name="ville à rechercher"id="ville-à-rechercher"placeholder="Marseille,France"class="villes">
                             </form>
                             
                             <div class="rechercher-logo"> <i class="fa-solid fa-location-dot" style="color: #000000;" aria-hidden="true" ></i></div>
                         </div>
+                            <div class="loupe"><i class="fa-solid fa-magnifying-glass" style="color:white"></i></div>
                             <div class="recherche-filtre">
                             <p class="filtre">Filtres</p>
-                            <nav>
+                            <nav class="les-filtres">
                                 <div class="eco">
-                                        <div class="log"><i class="fa-solid fa-money-bill-wave"aria-hidden="true"></i></div>
+                                        <div class="log"><i class="fa-solid fa-money-bill-wave" aria hidden="true"></i></div>
                                       <div class="economique">  <a href="#">Economique</a></div>
                                 </div>        
                                     <div class="famille">
+
                                         <div class="personne"><i class="fa-solid fa-person"aria-hidden="true"></i></div>
                                         <div class="familial"><a href="#">Familial</a></div>
                                     </div>  
@@ -117,7 +119,7 @@
                             </a>
                             <a href="#">
                                 <article class="cards3">
-                                    <img src="image/hebergement/reisetopia.jpg" alt="Image de la chambre d'hôtel montrant un lit">
+                                   <div> <img src="image/hebergement/reisetopia.jpg" alt="Image de la chambre d'hôtel montrant un lit"></div>
                                     <div class="card-content">
                                         <div class="card-txt">
                                             <h3 class="card-title">Hôtel Les mouettes</h3>
@@ -140,7 +142,7 @@
                                     <div class="card-content">
                                         <div class="card-txt">
                                             <h3 class="card-title">Hôtel de la mer</h3>
-                                            <p class="card-subtitle">Nuit à partir de 6<span class="euro">€</span></p>
+                                            <p class="card-subtitle">Nuit à partir de 46<span class="euro">€</span></p>
                                         </div>
                                         <div class="card-rating">
                                             <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
@@ -191,8 +193,10 @@
                                     </div>
                                 </article>
                             </a>
+                              <a href="#">
                                             <p class="affiche">Afficher plus</p>
-                    </section>
+                            </a>              
+                        </section>
                     <section class="populaires">
                         <div class="populaires-title">
                             <h2 class="section-title">Les plus populaires</h2>
@@ -289,7 +293,7 @@
                                     <img src="image/activites/kilyan-sockalingum.jpg" alt="imageparc national des calanques">
                                              <div class ="card-content">
                                                 <div class ="card-txt">
-                                                    <h3 class="activite-card-title">Parc national des Calanques</h3>
+                                                    <h3 class="activite-card-title-calanque">Parc national des Calanques</h3>
                                                 </div>
                                              </div>
                                             
@@ -300,7 +304,7 @@
                                     <img src="image/activites/florian-wehde.jpg" alt="image de Notre Dame de la Garde">
                                               <div class ="card-content">
                                                 <div class ="card-txt">
-                                                        <h3 class="activite-card-title">Notre-Dame-de-la-Garde</h3>
+                                                        <h3 class="activite-card-title-dame">Notre-Dame-de-la-Garde</h3>
                                                  </div>
                                               </div>
                                               
@@ -311,9 +315,9 @@
                         </section>
                 </section>
             </main>
-            <footer>
+            <footer class="renseignements">
             <div class="propos">
-                <h2 class="title-propos">A propos</h2>
+                <h2 class="title-propos">A propos</h2> 
                 <a href="#">
                     <div class="fonctionnement">Fonctionnement du site</div>
                 </a> 
