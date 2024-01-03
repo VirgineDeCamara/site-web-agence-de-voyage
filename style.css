@@ -16,6 +16,8 @@ body {
     display: flex;
     justify-content: center;
     width: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 .main-container {
@@ -642,9 +644,9 @@ footer{
   @media (max-width: 767.98px ){
     body{
         padding: 0;
-        height: 3900px;
+        height: 3910px;
+        
     }
-    
         .main-container{
             position: relative;
            width: 375px;
@@ -688,7 +690,6 @@ footer{
     .activite :hover{
         border-top: none;
         border-bottom: 2px solid #0065FC;
-        padding-left: 50px;
         padding-bottom:15px;
     }
     .recherche{
