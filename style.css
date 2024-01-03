@@ -218,14 +218,24 @@ margin-left: 15px;
   border-radius:25px;
   border: 2px solid #D9D9D9;
   font-weight:600;
-  &:hover{
-    background-color: #DEEBFF;
-  }
-  
 }
+.eco:hover{
+    background-color: #DEEBFF; 
+}
+.famille:hover{
+    background-color: #DEEBFF;
+}
+.romantique:hover{
+    background-color: #DEEBFF;
+}
+  
+
 .eco{
     margin-left: 15px;
     width: 163px;
+}
+.pepite:hover{
+    background-color: #DEEBFF;
 }
 
 .famille{
@@ -630,6 +640,10 @@ footer{
 
 /* Small devices (phones, less than 768px) */
   @media (max-width: 767.98px ){
+    body{
+        padding: 0;
+        height: 3900px;
+    }
     
         .main-container{
             position: relative;
@@ -648,21 +662,21 @@ footer{
    .booki{
    position: relative;
     padding: 0;
+    padding-bottom: 10px;  
     left:105px;
     height: 19px;
    
    }
    .navigation{
-    padding-bottom: 20px;
+    padding-bottom: 25px;
    }
   
-    .activite{
-       padding-right: 40px;
-        
+    .heberg, .activite{
+        font-size: 18px;
     }
     .heberg{
-        margin: 0px;
-        padding-right:5px;
+        padding-right: 30px;
+    
     }
 
     .heberg :hover{
@@ -674,23 +688,35 @@ footer{
     .activite :hover{
         border-top: none;
         border-bottom: 2px solid #0065FC;
+        padding-left: 50px;
         padding-bottom:15px;
+    }
+    .recherche{
+       height: 150px;
+
     }
     .description{
         font-size: 14px;
-        padding-left: 5px;
+       
     }
     .section-recherche{
         width:240px;
-        padding-left: 5px;
         justify-content: center;
-       font-size: 18px;
+        font-size: 18px;
+        position: relative;
+        left: 10px;
+     
     }
-    form{
-        width: 190px;
-        border-top: 1px solid #F2F2F2;
-        border-bottom: 1px solid #F2F2F2;
+   
+    .form{
+        width: 250px;
+      
+
     }
+   .rechercher-logo{
+    padding-right: 15px;
+    
+   }
     .bouton{
         width: 49px;
         border-radius: 16px 15px 15px 16px;
@@ -699,69 +725,50 @@ footer{
         color: #0065FC;
         box-shadow: 0px 4px 4px 0px #00000040;
         position: relative;
-        right:9px;
+        right:8px;
     
         }
         .loupe{
             visibility: inherit;
             position:relative;
-            left: 246px;
+            left: 234px;
             bottom: 31px;
             color: white;
         }
         
+        
         .filtre{
-           padding: 0;
+         margin:20px; 
 
         }
         .recherche-filtre{
             display: flex;
-            flex-direction: column;
-           padding: 0px;
-            
-            
-        }
-        .les-filtres{
-            width: 100%;
-            height: 141px;
-            justify-content: space-between;
-            
+            position: relative;
+            right:60px ;
+            bottom: 8px;
+            width:375px;
+            flex-direction:column;   
         }
         
         .eco, .famille, .romantique, .pepite{
-         font-size: 11px;
-            width: 119px;
-            height: 30px;
-            margin-right:0px;
-            margin-left: 1px;
-           padding-bottom: 4px;
+            width: 160px;
+            height: 40px;
+         
         }
         .romantique, .pepite{
-            margin-top: 10px;
+            margin-top: 20px;
         }
-        .famille, .pepite{
-            margin-left:10px;
-        }
-        .famille{
-           display: flex;
-           justify-content:start;
-            
-            
-        }
-
-        .personne{
-            margin-right: 8px;
-        }
-        .economique, .roman, .pep{
-            margin-left: 6px;
-          
-        }
-          
+        .familial{
+            padding-right: 30px;
+        }  
         
         .information{
-            margin-top: 90px;
+            margin-top: 100px;
             font-size: 13px;
             width: 301px;
+            padding-bottom: 120px;
+            position: relative;
+            right: 20px;
 
         }
         .i{
@@ -773,14 +780,14 @@ footer{
             height: 24px;
             margin-right: 2px;
         }
+       
         .hebergements-and-populaires section{
             position: relative;
             width:375px;
             right:65px;
-            margin-top:300px;
+            margin-top:250px;
             border-top-right-radius: 0;
             border-bottom-right-radius: 0;
-    
             
         }
         .hebergements-and-populaires{
@@ -792,10 +799,6 @@ footer{
         .populaires-cards{
             display: flex;
             flex-direction: column;
-            border-radius: none
-            ;
-          
-             
         }
         .card{
             position: relative;
@@ -806,15 +809,18 @@ footer{
         .hebergements-and-populaires .hebergements{
             background-color: white;
             position: relative;
-            bottom: 280px;
+            bottom: 240px;
         }
     
     .hebergements{
-        margin-top: 40px;
+        margin-top: 140px;
     }
     #hebergement-marseille{
         margin-bottom: 30px;
 
+    }
+    .affiche{
+        margin-bottom: 50px;
     }
   
     .cards1, .cards2, .cards3, .cards4, .cards5, .cards6{
@@ -839,19 +845,14 @@ footer{
     width: 315px;
     height: 141px;
 
-}
-
-   
-    
+}  
     footer{
         display: flex;
         flex-direction: column;
-        width: 375px;
+        width: 338px;
         position: relative;
         bottom: 590px;
         right: 60px;
     }
-  
-    
         
 }
