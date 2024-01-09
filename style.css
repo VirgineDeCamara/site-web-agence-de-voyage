@@ -834,6 +834,80 @@ footer{
         
     }
 }
+@media (max-width:368px){
+    
+    
+       
+        
+        .heberg, .activite{
+            font-size: 15px;
+           padding-right: 55px;
+        }
+        .activite{
+            margin-right: 10px;
+        }
+        
+        .section-recherche{
+            font-size: 20px;
+        }
+        .recherche{
+            width: 300px;
+         }
+         .description{
+             font-size: 15px;
+            
+         }
+         .form{
+            padding-left: 10px;
+         }
+        
+            .loupe{
+                
+                padding-left: 250px;
+                
+            }
+        
+           .eco, .famille, .romantique, .pepite{
+            width: 120px;
+            font-size:11px; 
+         
+        }
+        
+        
+        .information{
+            margin-top: 100px;
+        }
+        
+        .card{
+            
+            width: 250px;
+            margin-left: 15px;
+        }
+        .cards1, .cards2, .cards3, .cards4, .cards5, .cards6{
+            width: 250px;
+            margin-left: 15px;
+        }
+   
+       
+        .activite1, .activite2, .activite3, .activite4{
+             width: 250px;
+             margin-left: 45px;
+            
+        }
+        .activite-card img{
+             width: 250px;
+           
+    
+     }  
+        footer{
+            display: flex;
+            flex-direction: column;
+            width: 375px;
+            margin-top: 50px;
+        
+    }
+
+}
    
         
 
