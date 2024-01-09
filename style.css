@@ -418,6 +418,7 @@ margin-left: 15px;
     display: flex;
     flex-wrap: wrap;
     margin-left: 40px;
+    margin-bottom: 40px;
     gap: 30px;
 }
 #activite-titre{
@@ -575,7 +576,7 @@ footer{
     }
     
     footer{
-        margin: 0;
+        margin-top: 20px;
     }
 }
 
