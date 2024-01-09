@@ -565,13 +565,14 @@ footer{
     .activite1, .activite2, .activite3, .activite4{
         width: 195.5px;
         height: 300px;
+        padding-bottom: 10px;
     }
     
     .card-txt{
         font-size:11px;
     }
     .activite-card-title, .activite-card-title-calanque, .activite-card-title-dame{
-        padding:0;
+        padding: 0;
         padding-left: 15px;
     }
     
@@ -647,7 +648,7 @@ footer{
 
        }
        footer{
-        margin-top:340px;
+        margin-top:360px;
         margin-left: 60px;
        }
 
@@ -827,8 +828,9 @@ footer{
      }  
         footer{
             display: flex;
-         flex-direction: column;
-         width: 375px;
+            flex-direction: column;
+            width: 375px;
+            margin-top: 50px;
         
     }
 }
