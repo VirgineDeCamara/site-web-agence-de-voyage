@@ -93,7 +93,7 @@ a {
      }
      .heberg :hover{
         border-top: 2px solid #0065FC;
-        padding-top: 24px;
+        padding-top: 16px;
         color: #0065FC;
 
      }
@@ -107,7 +107,7 @@ a {
 }
 .activite :hover{
     border-top: 2px solid #0065FC;
-        padding-top: 24px;
+        padding-top: 16px;
         color: #0065FC;
 
 }
@@ -160,6 +160,9 @@ input{
     color: #F2F2F2;
     border: none;
     outline: none;
+}
+.fa-location-dot{
+    color: black;
 }
 
 .loupe{
@@ -334,6 +337,7 @@ margin-left: 15px;
   
 }
 
+
    
 .hebergement-card{
     display :flex;
@@ -438,7 +442,6 @@ margin-left: 15px;
     
     width:290px;
     margin-top: 34px;
-    margin-left 24px;
     font-size: 12px;
     box-shadow: 0px 3px 15px 0px #0000001A;
     border-radius: 20px;
@@ -726,6 +729,9 @@ footer{
             right:8px;
         
             }
+            .fa-magnifying-glass{
+                color: white;
+            }
             .loupe{
                 visibility: inherit;
                 position:relative;
@@ -792,36 +798,36 @@ footer{
         .card{
             
             width: 300px;
-}
-.hebergements-and-populaires .hebergements{
-    background-color: white;
-}
+        }
+        .hebergements-and-populaires .hebergements{
+         background-color: white;
+        }
 
-.hebergement-card{
-    margin-top: 25px;
-}
-.cards1, .cards2, .cards3, .cards4, .cards5, .cards6{
-    width: 300px;
-    margin: 0;
+        .hebergement-card{
+             margin-top: 25px;
+        }
+        .cards1, .cards2, .cards3, .cards4, .cards5, .cards6{
+             width: 300px;
+             margin: 0;
     
-}
-.activite-marseille{
-    margin: 0;
-    padding-bottom: 600px;
-}
-.activite1, .activite2, .activite3, .activite4{
-    width: 315px;
-    height: 200px;
-    }
-    .activite-card img{
-    width: 315px;
-    height: 141px;
+        }
+        .activite-marseille{
+              margin: 0;
+             padding-bottom: 600px;
+        }
+        .activite1, .activite2, .activite3, .activite4{
+             width: 315px;
+            height: 200px;
+        }
+        .activite-card img{
+             width: 315px;
+            height: 141px;
     
-    }  
-    footer{
-        display: flex;
-        flex-direction: column;
-        width: 375px;
+     }  
+        footer{
+            display: flex;
+         flex-direction: column;
+         width: 375px;
         
     }
 }
